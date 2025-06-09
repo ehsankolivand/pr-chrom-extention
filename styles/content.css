@@ -1,0 +1,38 @@
+.pr-diff-exporter-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  padding: 10px 20px;
+  background-color: #2ea44f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+}
+
+.pr-diff-exporter-button:hover {
+  background-color: #2c974b;
+}
+
+.pr-diff-exporter-button:disabled {
+  background-color: #94d3a2;
+  cursor: not-allowed;
+}
+
+.pr-diff-exporter-progress {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 9999;
+  padding: 10px 20px;
+  background-color: #24292e;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+} 
