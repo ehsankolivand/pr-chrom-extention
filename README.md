@@ -15,7 +15,7 @@ A Chrome extension that exports GitHub Pull Request diffs as Markdown files in a
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/pr-diff-exporter.git
+   git clone https://github.com/ehsankolivand/pr-diff-exporter.git
    cd pr-diff-exporter
    ```
 
